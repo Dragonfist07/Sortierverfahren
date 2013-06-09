@@ -9,7 +9,7 @@ public class InsertionSort {
 			int wert = zahlen[i];
 			int position = i - 1;
 
-			while (position > 0 && zahlen[position] > wert) {
+			while (position >= 0 && zahlen[position] > wert) {
 				zahlen[position + 1] = zahlen[position];
 				position--;
 			}
